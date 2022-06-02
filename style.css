@@ -75,12 +75,12 @@ button:hover {
   }
 
   .container {
-    height: 150px;
-    width: 400px;
+    height: 125px;
+    width: 375px;
   }
 
   .stopwatch-card {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   button {
