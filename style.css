@@ -67,3 +67,46 @@ button:hover {
   transition: all 0.5s ease-in-out;
   color: #fff851;
 }
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 50px;
+    padding: 70px 0 70px 0;
+  }
+
+  .container {
+    height: 150px;
+    width: 400px;
+  }
+
+  .stopwatch-card {
+    font-size: 60px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 16px 38px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .heading {
+    font-size: 55px;
+    padding: 80px 0 80px 0;
+  }
+
+  .container {
+    height: 175px;
+    width: 425px;
+  }
+
+  .stopwatch-card {
+    font-size: 75px;
+    padding-top: 38px;
+  }
+
+  button {
+    font-size: 19px;
+    padding: 18px 40px;
+  }
+}
